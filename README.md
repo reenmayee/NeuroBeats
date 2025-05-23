@@ -1,4 +1,4 @@
-# NeuroBeats – AI-Powered Music Remix Tool
+# NeuroBeats – Remix with AI
 
 NeuroBeats is a simple web-based tool that allows users to upload any MP3 file, apply audio effects like 8D, Slow, or Reverb using FFmpeg, and download the remixed version.
 
