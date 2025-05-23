@@ -1,0 +1,150 @@
+/* Quicksand font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+/* Basic reset and font */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(135deg, #f8f0fc, #dbeafe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  padding: 20px;
+}
+
+/* The outer container */
+.container {
+  background: #ffffffcc; /* translucent white */
+  padding: 40px 50px;
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(100, 80, 150, 0.2);
+  max-width: 900px;
+  width: 95vw;
+
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 1s ease forwards;
+}
+
+/* Each step card */
+.step {
+  background: #f0e9f6;
+  flex: 1;
+  padding: 30px 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(120, 90, 170, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  min-width: 180px;
+  max-width: 280px;
+}
+
+.step:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 35px rgba(120, 90, 170, 0.3);
+}
+
+/* Headings and paragraphs */
+h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #5b3b8a;
+  text-align: center;
+}
+
+p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  color: #635d79;
+  text-align: center;
+}
+
+/* Remix buttons container */
+.remix-options {
+  background: #f3e8ff;
+  padding: 25px 40px;
+  margin-top: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(100, 80, 160, 0.15);
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.remix-options button {
+  background-color: #a78bfa;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remix-options button:hover {
+  background-color: #7c3aed;
+}
+
+.remix-options button:disabled {
+  background-color: #ddd6fe;
+  cursor: not-allowed;
+}
+
+/* General buttons */
+button {
+  padding: 11px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  background: #b794f4;
+  color: white;
+  transition: background-color 0.3s ease;
+  margin-top: auto;
+  width: 100%;
+}
+
+button:hover {
+  background: #7c5de8;
+}
+
+/* File input styling */
+input[type="file"] {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  width: 100%;
+  font-size: 1rem;
+  color: #5b3b8a;
+  background: white;
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* Loading text style */
+.loading {
+  font-style: italic;
+  color: #7c5de8;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {opacity: 0; transform: scale(0.95);}
+  to {opacity: 1; transform: scale(1);}
+}
