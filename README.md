@@ -15,6 +15,12 @@ NeuroBeats is a simple web-based tool that allows users to upload any MP3 file, 
 3. Upload the file, select the desired effect, and submit.
 4. The processed audio file will be available for download.
 
+## Live Demo
+
+Try it out here: [https://neurobeats-app.netlify.app](https://neurobeats-app.netlify.app)
+
+Backend API runs at: [https://neurobeats.onrender.com](https://neurobeats.onrender.com)
+
 ## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute it.
