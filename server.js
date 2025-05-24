@@ -9,7 +9,7 @@ const app = express();
 const PORT = 5000;
 
 // Absolute path to ffmpeg executable (Windows example with quotes for spaces)
-const ffmpegPath = '"C:\\ProgramData\\chocolatey\\bin\\ffmpeg.exe"';
+const ffmpegPath = '"D:\\Downloads\\ffmpeg-7.1.1-essentials_build\\ffmpeg-7.1.1-essentials_build\\bin\\ffmpeg.exe"';
 
 // Middleware setup
 app.use(cors());
