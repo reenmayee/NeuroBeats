@@ -70,10 +70,10 @@ app.post('/remix', upload.single('audio'), (req, res) => {
 });
 
 // Serve frontend build (for deployment)
-app.use(express.static(path.join(__dirname, 'build')));
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+//app.use(express.static(path.join(__dirname, 'build')));
+//app.get('*', (req, res) => {
+  //res.sendFile(path.join(__dirname, 'build', 'index.html'));
+//});
 
 // Start server
 app.listen(PORT, () => {
