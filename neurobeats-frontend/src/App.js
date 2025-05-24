@@ -42,7 +42,7 @@ function App() {
     formData.append('effect', type);
 
     try {
-      const response = await fetch('https://neurobeats.onrender.com', {
+      const response = await fetch('https://neurobeats.onrender.com/remix', {
         method: 'POST',
         body: formData,
       });
